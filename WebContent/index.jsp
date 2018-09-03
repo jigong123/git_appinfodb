@@ -31,7 +31,7 @@
       <a href="" class="btn btn-link">后台管理系统 入口</a>
       </div>
       <div>
-      <a href="statics/jsp/devlogin.jsp" class="btn btn-link">开发者平台 入口</a>
+      <a href="statics/jsp/devlogin.jsp" class="btn btn-link">开发者平台 入口1</a>
       </div>
     </div>
   </body>
