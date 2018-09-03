@@ -1,6 +1,6 @@
 package entity;
 
-public class Dictionary {
+public class Data_Dictionary {
 		private int id;
 		private String typeCode;
 		private String typeName;

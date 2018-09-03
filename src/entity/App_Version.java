@@ -1,6 +1,6 @@
 package entity;
 
-public class Version {
+public class App_Version {
 		private int id;
 		private int appId;
 		private String versionNo;

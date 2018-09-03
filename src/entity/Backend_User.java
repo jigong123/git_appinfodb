@@ -1,6 +1,6 @@
 package entity;
 
-public class User2 {
+public class Backend_User {
 		private int id;
 		private String userCode;
 		private String userName;
