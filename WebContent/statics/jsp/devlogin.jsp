@@ -50,7 +50,7 @@
 
               <div class="separator">
                 <div>
-                  <p>©2016 All Rights Reserved.1111111111111111</p>
+                  <p>©2016 All Rights Reserved. </p>
                 </div>
               </div>
             </form>
