@@ -28,5 +28,30 @@ public class IndexController {
 			return "login";
 		}
 	}
+
+	
+	
+	
+	//--前台代码块--！！！！！
+	@RequestMapping("/statics/jsp/dologin")
+	public String dologin(HttpServletRequest request) {
+		Dev_User devUserSession = new Dev_User();
+		devUserSession.setDevName("张三");
+		devUserSession.setId(1);
+		request.setAttribute("devUserSession",devUserSession);
+		return "developer/main";
+	}
+	@RequestMapping("dev/flatform/app/list")
+	public String list(){
+		return "developer/appinfolist";
+	}
+	@RequestMapping("dev/flatform/app/appinfoadd")
+	public String appinfoadd() {
+		return "developer/appinfoadd";
+	}
+	@RequestMapping("dev/flatform/app/addversionsave")
+	public String addversionsave() {
+		return "";
+	}
 	
 }
