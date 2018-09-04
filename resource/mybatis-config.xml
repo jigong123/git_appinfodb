@@ -27,10 +27,7 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 	</environments>
 	<!-- SQL语句映射信息 -->
 	<mappers>
-	<mapper resource="dao/Login.xml"/>
-	<mapper resource="dao/UserList.xml"/>
-	<mapper resource="dao/RoleList.xml"/>
-	<mapper resource="home/ProductDao.xml"/>
-	<mapper resource="dao/BillList.xml"/>
+	<mapper resource="dao/Dev_User.xml"/>
+	<mapper resource="dao/Backend_User.xml"/>
 	</mappers>
 </configuration>
